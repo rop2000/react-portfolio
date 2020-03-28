@@ -13,19 +13,19 @@ function App() {
      <Layout>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Uh </span><strong>Yeehaw</strong></span>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>   
-                <Link to="/aboutme">About</Link>   
-                <Link to="/projects">Projects</Link>   
-                <Link to="/contact">Contact me</Link>   
+                <Link to="/resume">RESUME</Link>   
+                <Link to="/aboutme">ABOUT</Link>   
+                <Link to="/projects">PROJECTS</Link>   
+                <Link to="/contact">CONTACT ME</Link>   
             </Navigation>
-        </Header>
+        </Header> 
         <Drawer className="drawercolor" title="Okay">
             <Navigation>
-                <Link to="/resume">Resume</Link>   
-                <Link to="/aboutme">About</Link>   
-                <Link to="/projects">Projects</Link>   
-                <Link to="/contact">Contact me</Link>   
-            </Navigation>
+                <Link to="/resume">RESUME</Link>   
+                <Link to="/aboutme">ABOUT</Link>   
+                <Link to="/projects">PROJECTS</Link>   
+                <Link to="/contact">CONTACT ME</Link>   
+            </Navigation> 
         </Drawer>
         <Content>
           <div className="page-content" />

@@ -11,7 +11,11 @@ class LandingPage extends Component {
     render(){
         return(
             <div style={{width: '100%', margin: 'auto'}}>
-                <Grid className="landing-grid">
+                
+                <div class="area" >
+                
+                    <ul class="circles">
+                    <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src={PhotoId} alt="" className="avatar-img"/>
                         <div className="banner-text">
@@ -56,8 +60,20 @@ class LandingPage extends Component {
 
                              </div>
                         </div>
-                    </Cell>
+                    </Cell> 
                 </Grid>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                    </ul>
+                </div>
             </div>
 
         )
